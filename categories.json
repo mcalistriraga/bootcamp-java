@@ -1,26 +1,26 @@
  [
   {
-    "categoria": "Cultura",
-    "descripcion": "Preguntas relacionadas con aspectos culturales, tradiciones y expresiones artísticas."
+    "category": "Cultura",
+    "description": "Preguntas relacionadas con aspectos culturales, tradiciones y expresiones artísticas."
   },
   {
-    "categoria": "Deportes",
-    "descripcion": "Preguntas sobre diversos deportes, atletas y eventos deportivos."
+    "category": "Deportes",
+    "description": "Preguntas sobre diversos deportes, atletas y eventos deportivos."
   },
   {
-    "categoria": "Arte",
-    "descripcion": "Preguntas acerca de artistas, obras de arte y movimientos artísticos."
+    "category": "Arte",
+    "description": "Preguntas acerca de artistas, obras de arte y movimientos artísticos."
   },
   {
-    "categoria": "Cine",
-    "descripcion": "Preguntas sobre películas, directores, actores y la industria cinematográfica."
+    "category": "Cine",
+    "description": "Preguntas sobre películas, directores, actores y la industria cinematográfica."
   },
   {
-    "categoria": "Historia",
-    "descripcion": "Preguntas relacionadas con eventos históricos, figuras destacadas y períodos históricos."
+    "category": "Historia",
+    "description": "Preguntas relacionadas con eventos históricos, figuras destacadas y períodos históricos."
   },
   {
-    "categoria": "Ciencia",
-    "descripcion": "Preguntas sobre diversos campos científicos, descubrimientos y conceptos científicos."
+    "category": "Ciencia",
+    "description": "Preguntas sobre diversos campos científicos, descubrimientos y conceptos científicos."
   }
 ]
