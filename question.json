@@ -4,11 +4,5 @@
     "options": ["Argentina", "Brasil", "España", "Uruguay"],
     "answer": 0,
     "explanation": "El tango es un género musical y baile que se originó en Argentina, especialmente en la región de Río de la Plata."
-},
-{
-    "category": "Deportes",
-    "question": "¿En qué deporte se utiliza una raqueta para golpear un volante?",
-    "options": ["Tenis", "Bádminton", "Squash", "Ping Pong"],
-    "answer": 1,
-    "explanation": "En el bádminton, los jugadores utilizan raquetas para golpear un volante por encima de la red hacia el lado contrario."
 }
+
