@@ -12,15 +12,15 @@ public class Main {
         Scanner cargaDeDatos = new Scanner(System.in);
 
         System.out.println("Introduce el primer número?");
-        Integer num1 = cargaDeDatos.nextInt();
+        int num1 = cargaDeDatos.nextInt();
 
         System.out.println("Introduce el segundo número?");
-        Integer num2 = cargaDeDatos.nextInt();
+        int num2 = cargaDeDatos.nextInt();
 
         System.out.println("Introduce el último número?");
-        Integer num3 = cargaDeDatos.nextInt();
+        int num3 = cargaDeDatos.nextInt();
 
-        Float media = (num1 +num2 +num3)/3;
+        float media = (num1 +num2 +num3)/3;
 
         System.out.println("El promedio de los siguientes numeros: (" + num1 + ", " + num2 + " y " + num3 + ") es: " + media);
     }
