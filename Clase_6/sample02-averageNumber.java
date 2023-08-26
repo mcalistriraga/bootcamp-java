@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Introduce el último número?");
         Integer num3 = cargaDeDatos.nextInt();
 
-        Integer media = (num1 +num2 +num3)/3;
+        Float media = (num1 +num2 +num3)/3;
 
         System.out.println("El promedio de los siguientes numeros: (" + num1 + ", " + num2 + " y " + num3 + ") es: " + media);
     }
