@@ -12,15 +12,15 @@ public class Main {
         Scanner cargaDeDatos = new Scanner(System.in);
 
         System.out.println("Introduce el primer número?");
-        Integer num1 = cargaDeDatos.nextInt();
+        int  num1 = cargaDeDatos.nextInt();
 
         System.out.println("Introduce el segundo número?");
-        Integer num2 = cargaDeDatos.nextInt();
+        Integerint num2 = cargaDeDatos.nextInt();
 
         System.out.println("Introduce el último número?");
-        Integer num3 = cargaDeDatos.nextInt();
+        int num3 = cargaDeDatos.nextInt();
 
-        Integer mayor= num1;
+        int mayor= num1;
         if (num2 > mayor) {
                 mayor= num2;
         }
@@ -28,7 +28,7 @@ public class Main {
             mayor= num3;
         }
 
-        Integer menor= num1;
+        int menor= num1;
         if (num2 < menor) {
             menor= num2;
         }
