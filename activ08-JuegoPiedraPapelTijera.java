@@ -17,53 +17,51 @@ package Clase_6;
 import java.util.Scanner;
 public class Main {
     public static void main (String[] args) {
-        int  piedra = 1;
+        int piedra  = 1;
         int papel   = 2;
         int tijera  = 3;
 
         Scanner cargaDeDatos = new Scanner(System.in);
 
-        System.out.println("**** JUEGO DE PIEDRA, PAPEL o TIJERA *****");
-        System.out.println("Introduce tu opción 1:Piedra, 2:Papel, 3:Tijera ?");
+        while(true) {
+            System.out.println("**** JUEGO DE PIEDRA, PAPEL o TIJERA *****");
+            System.out.println("Introduce tu opción 1:Piedra, 2:Papel, 3:Tijera, -1:Fin ?");
 
-        int opUser = cargaDeDatos.nextInt();
-        Integer opPc = (int)(Math.random()*3+1);
+            int opUser = cargaDeDatos.nextInt();
+            if (opUser < 0) break;
 
-        if (opUser == opPc) {
-            System.out.println ("Empate!!, ambos opción " + opUser);
-        }
+            Integer opPc = (int) (Math.random() * 3 + 1);
 
-        else if (opUser == piedra  && opPc == papel) {
-            System.out.println ("Tu-->piedra");
-            System.out.println ("maquina-->papel");
-            System.out.println ("Gane yo (Pc)!!");
+            if (opUser == opPc) {
+                System.out.println("Empate!!, ambos indicaron la opción--> " + opUser);
+            } else if (opUser == piedra && opPc == papel) {
+                System.out.println("Tu-->piedra");
+                System.out.println("maquina-->papel");
+                System.out.println("Gane yo (Pc)!!");
+            } else if (opUser == piedra && opPc == tijera) {
+                System.out.println("Tu-->piedra");
+                System.out.println("maquina-->tijera");
+                System.out.println("Ganaste!!");
+            } else if (opUser == papel && opPc == piedra) {
+                System.out.println("Tu-->papel");
+                System.out.println("maquina-->piedra");
+                System.out.println("Ganaste!!");
+            } else if (opUser == papel && opPc == tijera) {
+                System.out.println("Tu-->papel");
+                System.out.println("maquina-->tijera");
+                System.out.println("Gane yo (Pc)!!");
+            } else if (opUser == tijera && opPc == piedra) {
+                System.out.println("Tu-->tijera");
+                System.out.println("maquina-->piedra");
+                System.out.println("Gane yo (Pc)!!");
+            } else if (opUser == tijera && opPc == papel) {
+                System.out.println("Tu-->tijera");
+                System.out.println("maquina-->papel");
+                System.out.println("Ganaste!!");
+            }
+            System.out.println("Pulsa una tecla c para continuar....!!");
+            String c= cargaDeDatos.next();
         }
-        else if (opUser == piedra  && opPc == tijera) {
-            System.out.println ("Tu-->piedra");
-            System.out.println ("maquina-->tijera");
-            System.out.println ("Ganaste!!");
-        }
-
-        else if (opUser == papel  && opPc == piedra) {
-            System.out.println ("Tu-->papel");
-            System.out.println ("maquina-->piedra");
-            System.out.println ("Ganaste!!");
-        }
-        else if (opUser == papel  && opPc == tijera) {
-            System.out.println ("Tu-->papel");
-            System.out.println ("maquina-->tijera");
-            System.out.println ("Gane yo (Pc)!!");
-        }
-
-        else if (opUser == tijera  && opPc == piedra) {
-            System.out.println ("Tu-->tijera");
-            System.out.println ("maquina-->piedra");
-            System.out.println ("Gane yo (Pc)!!");
-        }
-        else if (opUser == tijera  && opPc == papel) {
-            System.out.println ("Tu-->tijera");
-            System.out.println ("maquina-->papel");
-            System.out.println ("Ganaste!!");
-        }
+        System.out.println("*************  Fin del juego!!**************");
     }
 }
