@@ -11,7 +11,6 @@ public class LoadNumersInArray {
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //int[] NumbersArray = new int[5];
         int[] numbers = new int[5];
 
         for (int i=0; i < numbers.length; i++)  // escribir en array
@@ -21,7 +20,6 @@ public class LoadNumersInArray {
         }
 
         System.out.println("Los números ingresados son:");
-        //for (int i=0; i < numbers.length; i++)  // leer array
 
         for (int elem: numbers)  // leer array
         {
