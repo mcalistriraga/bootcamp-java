@@ -38,8 +38,11 @@ class LoadNumersInArray {
                                                     .min()
                                                     .getAsInt());
         System.out.println("el máximo es: " + Arrays.stream(numbers).max().getAsInt());
-        System.out.println("el minimo es: " + Arrays.stream(numbers)
-                                                    .average()
-                                                    .getAsDouble());
+
+        if  (Arrays.stream(numbers).average().isPresent()) { // verifica su existencia antes de lectura
+            System.out.println("el minimo es: " + Arrays.stream(numbers)
+                    .average()
+                    .getAsDouble());
+        }
     }
 }
