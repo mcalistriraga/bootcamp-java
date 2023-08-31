@@ -39,6 +39,8 @@ class LoadNumersInArray {
                                                     .min()
                                                     .getAsInt());
         System.out.println("el máximo es: " + Arrays.stream(numbers).max().getAsInt());
-        System.out.println("el minimo es: " + Arrays.stream(numbers).average().getAsDouble());
+        System.out.println("el minimo es: " + Arrays.stream(numbers)
+                                                    .average()
+                                                    .getAsDouble());
     }
 }
