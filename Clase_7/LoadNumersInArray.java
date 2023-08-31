@@ -14,7 +14,7 @@ public class LoadNumersInArray {
         //int[] NumbersArray = new int[5];
         int[] numbers = new int[5];
 
-        for (int i; i < numbers.length; i++)  // escribir en array
+        for (int i=0; i < numbers.length; i++)  // escribir en array
         {
             System.out.println("Introduce el número: " + (i+1) + " de 5 en total");
             numbers[i] = scanner.nextInt();
@@ -22,9 +22,10 @@ public class LoadNumersInArray {
 
         System.out.println("Los números ingresados son:");
         //for (int i=0; i < numbers.length; i++)  // leer array
-        for (int i: numbers)  // leer array
+
+        for (int elem: numbers)  // leer array
         {
-            System.out.println("NumbersArray[" + i  + "] es: " + numbers[i]);
+            System.out.println(elem);
         }
 
     }
