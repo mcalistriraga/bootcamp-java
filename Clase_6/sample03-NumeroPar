@@ -7,7 +7,7 @@ package Clase_6;
 ===============================================================================================
 */
 import java.util.Scanner;
-public class Main {
+public class Ej01_CalculoPrecioFinal {
     public static void main (String[] args) {
         Scanner cargaDeDatos = new Scanner(System.in);
 
