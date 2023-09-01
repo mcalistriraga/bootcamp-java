@@ -14,6 +14,8 @@ package Clase_6;
 *           - El papel gana a la piedra porque la envuelve.
 *===============================================================================================
 */
+
+/*
 import java.util.Scanner;
 public class Main {
     public static void main (String[] args) {
@@ -65,3 +67,4 @@ public class Main {
         System.out.println("*************  Fin del juego!!**************");
     }
 }
+*/

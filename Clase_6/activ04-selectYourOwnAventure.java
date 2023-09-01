@@ -5,7 +5,7 @@ package Clase_6;
 *    4)	Crear un programa que cuente una historia al estilo de “Elige tu propia Aventura”.
 *===============================================================================================
 */
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Main {
     public static void main (String[] args) {
 
@@ -49,3 +49,4 @@ public class Main {
        System.out.println("Finalizó tu aventura!!");
     }
 }
+*/

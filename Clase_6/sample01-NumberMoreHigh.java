@@ -6,6 +6,7 @@ package Clase_6;
 *
 ===============================================================================================
 */
+/*
 import java.util.Scanner;
 public class Main {
     public static void main (String[] args) {
@@ -40,3 +41,4 @@ public class Main {
         System.out.println("El mayor número entre: " + num1 + ", " + num2 + " y " + num3 + " es: " + mayor);
     }
 }
+*/

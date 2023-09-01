@@ -10,7 +10,7 @@ package Clase_6;
 *
 ===============================================================================================
 */
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Main {
     public static void main (String[] args) {
 
@@ -22,3 +22,4 @@ public class Main {
         System.out.println (cmd);
     }
 }
+*/

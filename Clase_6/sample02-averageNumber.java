@@ -6,7 +6,7 @@ package Clase_6;
 *
 ===============================================================================================
 */
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Main {
     public static void main (String[] args) {
         Scanner cargaDeDatos = new Scanner(System.in);
@@ -25,3 +25,4 @@ public class Main {
         System.out.println("El promedio de los siguientes numeros: (" + num1 + ", " + num2 + " y " + num3 + ") es: " + media);
     }
 }
+*/
