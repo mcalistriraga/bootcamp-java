@@ -69,6 +69,6 @@ public class Ej02NewLoadNumbersArray {
         {
             System.out.print(elem);
         }
-        System.out.println();
+        System.out.println("\n");
     }
 }
