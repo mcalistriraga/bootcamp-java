@@ -14,7 +14,7 @@ package Clase_8;
  */
 import java.util.Arrays;
 import java.util.Scanner;
-public class Ej02NewLoadNumbersArray {
+public class Ej02_NewLoadNumbersArray {
 
     public static void main (String[] args) {
         int[] numbers = new int[5];
