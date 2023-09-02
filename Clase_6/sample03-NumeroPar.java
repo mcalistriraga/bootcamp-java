@@ -6,7 +6,7 @@ package Clase_6;
 *
 ===============================================================================================
 */
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Ej01_CalculoPrecioFinal {
     public static void main (String[] args) {
         Scanner cargaDeDatos = new Scanner(System.in);
@@ -23,3 +23,4 @@ public class Ej01_CalculoPrecioFinal {
 
     }
 }
+*/

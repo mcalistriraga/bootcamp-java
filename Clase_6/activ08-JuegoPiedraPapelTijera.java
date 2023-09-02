@@ -14,8 +14,9 @@ package Clase_6;
 *           - El papel gana a la piedra porque la envuelve.
 *===============================================================================================
 */
+
 import java.util.Scanner;
-public class Main {
+class Main {
     public static void main (String[] args) {
         int piedra  = 1;
         int papel   = 2;
