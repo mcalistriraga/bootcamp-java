@@ -12,9 +12,10 @@ package Clase_07;
 *
 * *==============================================================================
 */
-/*import java.util.Arrays; // clase Arrays
+/*
+import java.util.Arrays; // clase Arrays
 import java.util.Scanner;
-class LoadNumersInArray {
+class  LoadNumersInArray {
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
 

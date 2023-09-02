@@ -1,5 +1,5 @@
 package Clase_8;
-
+/*
 public class Ej01_CalculoPrecioFinal {
     public static void main(String[] args) {
         calcularPrecioFinal("Pantalón", 40, 20);
@@ -10,4 +10,4 @@ public class Ej01_CalculoPrecioFinal {
         System.out.println("El precio del producto " + producto + " es: $" + precio_final);
     }
 
-}
+}*/
