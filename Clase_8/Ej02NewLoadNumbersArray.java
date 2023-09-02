@@ -34,13 +34,19 @@ public class Ej02NewLoadNumbersArray {
     }
 
     private static void calcularMaximo(int[] numbers) {
-        System.out.println("el máximo es: " + Arrays.stream(numbers).max().getAsInt());
+        if  (Arrays.stream(numbers).max().isPresent()) {
+            System.out.println("el máximo es: " + Arrays.stream(numbers).max().getAsInt());
+        }
+        else System.out.println("no se puedo calcular el máximo!!");
     }
 
     private static void calcularMinimo(int[] numbers) {
-        System.out.println("el minimo es: " + Arrays.stream(numbers)
-                .min()
-                .getAsInt());
+        if  (Arrays.stream(numbers).min().isPresent()) {
+            System.out.println("el minimo es: " + Arrays.stream(numbers)
+                    .min()
+                    .getAsInt());
+        }
+        else System.out.println("no se puedo calcular el mínimo!!");
     }
 
     private static void cargarNumeros(int[] numbers) {
