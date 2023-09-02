@@ -10,7 +10,10 @@ import java.util.Scanner;
 */
 public class Activ01_AreaCuadrado {
     public static void main (String[] args) {
-        float lado= getUserData("Introduzca la longitud de uno los lados del cuadrado:");
+
+        System.out.println("Introduzca la longitud de uno los lados del cuadrado:");
+
+        float lado= getUserData();
 
         float area= getSquareArea(lado);
 
@@ -22,8 +25,7 @@ public class Activ01_AreaCuadrado {
         return lado*lado;
     }
 
-    private static float  getUserData(String msje) {
-        System.out.println(msje);
+    private static float  getUserData() {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextFloat();
     }
