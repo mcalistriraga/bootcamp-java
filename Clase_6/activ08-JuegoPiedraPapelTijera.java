@@ -31,7 +31,7 @@ class Main {
             int opUser = cargaDeDatos.nextInt();
             if (opUser < 0) break;
 
-            Integer opPc = (int) (Math.random() * 3 + 1);
+            int opPc = (int) (Math.random() * 3 + 1);
 
             if (opUser == opPc) {
                 System.out.println("Empate!!, ambos indicaron la opción--> " + opUser);
