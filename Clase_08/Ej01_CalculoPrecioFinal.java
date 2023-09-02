@@ -1,4 +1,4 @@
-package Clase_8;
+package Clase_08;
 /*
 public class Ej01_CalculoPrecioFinal {
     public static void main(String[] args) {
