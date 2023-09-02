@@ -59,8 +59,7 @@ public class Ej02NewLoadNumbersArray {
     private static int  pedirNumeroAlUsuario() {
         System.out.println("Introduce el número: ");
         Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-        return number;
+        return scanner.nextInt();
     }
 
     private static void mostrarNumeros(int[] numbers) {
@@ -70,6 +69,6 @@ public class Ej02NewLoadNumbersArray {
         {
             System.out.print(elem);
         }
-        System.out.println("");
+        System.out.println();
     }
 }
