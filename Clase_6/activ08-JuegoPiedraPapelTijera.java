@@ -61,7 +61,7 @@ class Main {
                 System.out.println("Ganaste!!");
             }
             System.out.println("Pulsa una tecla c para continuar....!!");
-            String c= cargaDeDatos.next();
+            cargaDeDatos.next();
         }
         System.out.println("*************  Fin del juego!!**************");
     }
