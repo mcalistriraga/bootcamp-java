@@ -12,7 +12,7 @@ package Clase_08;
  *
  * *==============================================================================
  */
-import java.util.Arrays;
+/*import java.util.Arrays;
 import java.util.Scanner;
 public class Ej02_NewLoadNumbersArray {
 
@@ -71,4 +71,4 @@ public class Ej02_NewLoadNumbersArray {
         }
         System.out.println("\n");
     }
-}
+}*/
