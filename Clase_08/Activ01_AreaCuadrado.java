@@ -8,6 +8,7 @@ import java.util.Scanner;
 *
 * ----------------------------------------------------------------------
 */
+/*
 public class Activ01_AreaCuadrado {
     public static void main (String[] args) {
 
@@ -31,4 +32,4 @@ public class Activ01_AreaCuadrado {
     }
 }
 
-
+*/
