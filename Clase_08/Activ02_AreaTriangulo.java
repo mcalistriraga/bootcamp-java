@@ -9,7 +9,7 @@ import java.util.Scanner;
 * ----------------------------------------------------------------------
 */
 
-/*
+
 public class Activ02_AreaTriangulo {
     public static void main (String[] args) {
 
@@ -32,4 +32,3 @@ public class Activ02_AreaTriangulo {
         return scanner.nextFloat();
     }
 }
-*/
