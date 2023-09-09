@@ -2,7 +2,8 @@ package Clase_09;
 /*
 ------------------------------------------------------------------------
 Ej01-Personas
-“Crea un programa que tenga un arreglo con nombres completos de personas.
+“Crea un programa que tenga un arreglo con nombres completos de
+personas.
 Además, debe permitir realizar una búsqueda por el nombre de la persona”.
 ------------------------------------------------------------------------
  */
@@ -16,7 +17,8 @@ public class Ej01_FindPersonsNames {
 
         String personas[]= {"Lucas Moy", "Aldo Angeline", "Julia Gomez", "Manuel Santillan", "Juan Torres"};
 
-        for (String nombrePersona:personas) {
+        for (String nombrePersona:personas)
+        {
             if (nombrePersona.toLowerCase().contains(busqueda.toLowerCase())) {
                 System.out.println("La persona es: " + nombrePersona);
                 break;
