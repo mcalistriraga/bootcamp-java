@@ -8,7 +8,7 @@ Además, debe permitir realizar una búsqueda por el nombre de la persona”.
 ------------------------------------------------------------------------
  */
 import java.util.Scanner;
-public class Ej01_FindPersonsNames {
+/*public class Ej01_FindPersonsNames {
     public static void main (String[] args) {
         System.out.println("Ingrese su busqueda: ");
 
@@ -32,4 +32,4 @@ public class Ej01_FindPersonsNames {
         //      usando todo el poder de la computadora
 
     }
-}
+}*/

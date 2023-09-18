@@ -21,7 +21,7 @@
 */
 package academy.atl.bootcamp;
 
-
+/*
 // Main Controllers, van a ser como los puntos de entrada, donde se van a llarar estas URLs
 // es donde vamos a configurar todo esto..
 
@@ -160,3 +160,4 @@ public class MainController {
     }
 
 }
+*/
