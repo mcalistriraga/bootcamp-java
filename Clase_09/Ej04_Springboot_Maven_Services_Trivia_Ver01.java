@@ -1,5 +1,5 @@
 package com.bootcamp.bootcamptrivia;
-
+/*
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -57,3 +57,4 @@ public class TriviaController {
         return triviaQuestion;
     }
 }
+*/

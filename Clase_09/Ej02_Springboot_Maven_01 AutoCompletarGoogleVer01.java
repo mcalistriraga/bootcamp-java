@@ -1,5 +1,5 @@
 package com.bootcamp.bootcamp;
-
+/*
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -27,3 +27,4 @@ public class BusquedaController {
         return resultadoDeBusqueda;
     }
 }
+*/

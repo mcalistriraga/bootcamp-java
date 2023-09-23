@@ -1,10 +1,9 @@
 package Clase_10;
-
+/*
 import java.time.LocalDate;
 
 public class Activ02_MainCuenta {
     public static void main (String[] args) {
-
         Cuenta cuenta1 = new Cuenta();
 
         LocalDate fechaNacimiento= LocalDate.of(2000, 05, 15);
@@ -54,5 +53,6 @@ public class Activ02_MainCuenta {
             System.out.println("No se pudo retirar, el monto: (" + monto.toString() + "), SALDO INSUFICIENTE!!");
         }
         cuenta2.mostrar();
+
     }
-}
+}*/
