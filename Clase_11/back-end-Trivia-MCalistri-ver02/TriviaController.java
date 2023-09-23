@@ -1,3 +1,4 @@
+/*
 package com.bootcamp.bootcamptrivia;
 
 import com.bootcamp.bootcamptrivia.entities.Categoria;
@@ -124,3 +125,4 @@ public class TriviaController {
     }
 
 }
+*/

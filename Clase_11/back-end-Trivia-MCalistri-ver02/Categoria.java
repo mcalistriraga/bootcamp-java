@@ -1,4 +1,6 @@
+/*
 package com.bootcamp.bootcamptrivia.entities;
+
 
 import java.util.List;
 
@@ -34,3 +36,4 @@ public class Categoria {
     }
 
 }
+*/

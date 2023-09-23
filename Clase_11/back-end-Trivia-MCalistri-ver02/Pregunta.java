@@ -1,3 +1,4 @@
+/*
 package com.bootcamp.bootcamptrivia.entities;
 
 import java.util.ArrayList;
@@ -64,3 +65,4 @@ public class Pregunta {
     }
 }
 
+*/
