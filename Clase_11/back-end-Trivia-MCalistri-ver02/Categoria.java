@@ -1,4 +1,3 @@
-/*
 package com.bootcamp.bootcamptrivia.entities;
 
 
@@ -36,4 +35,3 @@ public class Categoria {
     }
 
 }
-*/
