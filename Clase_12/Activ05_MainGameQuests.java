@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class Activ05_MainGameQuests2 {
+public class Activ05_MainGameQuests {
 /*
     ====================================================================================+
     +    Clase_12--ACTIVIDAD_5                                                          +
