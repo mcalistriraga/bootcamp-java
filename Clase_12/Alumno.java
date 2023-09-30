@@ -3,7 +3,7 @@ package Clase_12;
 import java.util.List;
 
 public class Alumno {
-// propiedades
+    // propiedades
     private String nombre;
     private String apellido;
     private List<Float> notas;
@@ -15,6 +15,18 @@ public class Alumno {
         this.apellido = apellido;
         this.notas = notas;
     }
+
+    public Float promedioNotas() {
+        Float promedio=0F;
+        if (!this.notas.isEmpty()) {
+            for (Float nota : notas) {
+                promedio+= nota;
+            }
+            promedio /= notas.size();
+        }
+        return promedio;
+    }
+
 
     // Setters and Getters
     public String getNombre() {
@@ -41,3 +53,5 @@ public class Alumno {
     //     this.notas = notas;
     // }
 }
+
+

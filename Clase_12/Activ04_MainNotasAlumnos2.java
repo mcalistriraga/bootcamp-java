@@ -20,28 +20,28 @@ public class Activ04_MainNotasAlumnos2 {
 
     private static List<Float>  loadNotasDelAlumno() {
 
-            Scanner teclado_f = new Scanner(System.in);
-            Scanner teclado_s = new Scanner(System.in);
-            List<Float> notas = new ArrayList<>();
-            boolean cont= true;
-            while (cont) {
-                System.out.println("Introduzca la nota del alumno: ");
-                Float  notaAlumno= teclado_f.nextFloat();
-                notas.add(notaAlumno);
-                System.out.println("mas notas (s/n)? ");
-                if (!teclado_s.nextLine().equalsIgnoreCase("S")) { cont = false;}
-            }
-            return notas;
+        Scanner teclado_f = new Scanner(System.in);
+        Scanner teclado_s = new Scanner(System.in);
+        List<Float> notas = new ArrayList<>();
+        boolean cont= true;
+        while (cont) {
+            System.out.println("Introduzca la nota del alumno: ");
+            Float  notaAlumno= teclado_f.nextFloat();
+            notas.add(notaAlumno);
+            System.out.println("mas notas (s/n)? ");
+            if (!teclado_s.nextLine().equalsIgnoreCase("S")) { cont = false;}
+        }
+        return notas;
     }
     private static String loadNombreDelAlumno() {
-            Scanner teclado = new Scanner(System.in);
-            System.out.println("Introduzca el nombre del alumno: ");
-            return teclado.nextLine();
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Introduzca el nombre del alumno: ");
+        return teclado.nextLine();
     }
     private static String loadApellidoDelAlumno() {
-            Scanner teclado = new Scanner(System.in);
-            System.out.println("Introduzca el apellido del alumno: ");
-            return teclado.nextLine();
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Introduzca el apellido del alumno: ");
+        return teclado.nextLine();
     }
     private static List<Alumno> loadDatosAlumnos() {
         List<Alumno> alumnos = new ArrayList<>();
@@ -59,16 +59,21 @@ public class Activ04_MainNotasAlumnos2 {
     private static void mainGestionarAlumnos() {
         List<Alumno> alumnos;
         alumnos = loadDatosAlumnos();
-
         System.out.println("A continuacion los datos de los alumnos almacenados:");
+        displayDatosAlumnos(alumnos);
+    }
+
+    private static void displayDatosAlumnos(List<Alumno> alumnos) {
         for (Alumno alumno : alumnos) {
             System.out.print(alumno.getNombre() + ", " + alumno.getApellido() + ", Notas:");
             for (Float nota : alumno.getNotas()) {
                 System.out.print(nota + ", ");
             }
-            System.out.println("\n");
+            System.out.println("promedio= " + String.format(alumno.promedioNotas().toString(), "%.1f") + "\n");
         }
         System.out.println("\n");
     }
 }
+
+
 
