@@ -8,7 +8,7 @@ public class QuestGame {
     public List<String> possibleAnswers;
 
     // builders
-    public QuestGame2() {
+    public QuestGame() {
 
     }
 
