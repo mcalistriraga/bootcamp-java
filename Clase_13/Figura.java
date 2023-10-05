@@ -9,8 +9,4 @@ public class Figura {
     public double calcularPerimetro (){
         return 0.0;
     }
-    public double redondear (double value){
-        return Math.round(value);
-    }
-
 }
