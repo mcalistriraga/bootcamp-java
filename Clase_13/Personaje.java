@@ -24,14 +24,14 @@ public class Personaje {
     }
 
 
-    protected void recibirDaño(int danio) {
+    protected void recibirDanio(int danio) {
         puntosDeVida= Math.max(0, puntosDeVida-danio);
         System.out.println(getNombre() + " recibió " + danio + " puntos de daño, le quedan " + puntosDeVida + " puntos de vida!!");
     }
     public void atacar(Personaje obj) {
         int danio= obj.generarDanio(); // rand genera un max de 10% de deño de los puntos otorgados al inicio
         System.out.println("el personaje " + getNombre() + " ataca a " + obj.getNombre() + " y le causa " + danio + " puntos de daño!!");
-        obj.recibirDaño(danio);
+        obj.recibirDanio(danio);
     }
 
     public void curarse(int puntosDeCura) {
@@ -42,7 +42,7 @@ public class Personaje {
     public void realizarAtaqueEspecial(Personaje obj) {
         int danio= obj.generarDanio()+7; // rand genera un max de 10% de deño de los puntos otorgados al inicio
         System.out.println("personaje " + getNombre() + " realiza ataque especial a " + obj.getNombre() + " y le produce " + danio + " puntos de daño!!");
-        obj.recibirDaño(danio);
+        obj.recibirDanio(danio);
     }
 
     // --- Setters and Getters ---
