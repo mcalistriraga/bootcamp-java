@@ -4,9 +4,9 @@ public class Activ01_MainGamePersonaje {
         mainJuegoDeRol();
     }
     private static void mainJuegoDeRol() {
-        Guerrero guerrero = new Guerrero("\'Caballero Cruzado\'", 8, 20);
-        Mago mago = new Mago("\'Mago Merlin\'", 7);
-        Arquero arquero = new Arquero("\'Arquero Ismael\'", 6);
+        Guerrero guerrero = new Guerrero("'Caballero Cruzado'", 8, 20);
+        Mago mago = new Mago("'Mago Merlin'", 7);
+        Arquero arquero = new Arquero("'Arquero Ismael'", 6);
 
         System.out.println("Comienza la batalla!!");
 
