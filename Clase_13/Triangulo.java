@@ -1,29 +1,20 @@
-package Clase_13;
 
-public class Triangulo extends Figura {
-    // ----atributes ---
-    private double base;
-    private double altura;
-
-    // --- builders---
-    public double getBase() {
-        return base;
-    }
-    public double getAltura() {
-        return altura;
+public class Triangulo extends PoligonoRegular {
+    public Triangulo(double base, double altura, String colorFondo) {
+        super(base, altura, colorFondo);
     }
 
-    public Triangulo(double base, double altura) {
-        this.base= base;
-        this.altura= altura;
+    public Triangulo() {
+        super();
     }
+
     public double calcularArea() {
-        return (getBase() * getAltura())/2;
+        return (base * altura)/2;
     }
 
     public double calcularPerimetro() {
-        double hipotenusa= Math.sqrt(Math.pow(getBase(), 2) + Math.pow(getAltura(), 2));
-        return getBase() + getAltura() + hipotenusa;
+        double hipotenusa= Math.sqrt(Math.pow(base, 2) + Math.pow(altura, 2));
+        return base + altura + hipotenusa;
     }
 }
 

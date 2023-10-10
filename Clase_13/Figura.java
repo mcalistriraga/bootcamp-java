@@ -1,12 +1,25 @@
-package Clase_13;
+
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 
 // clase base Figura
-public class Figura {
-    public double calcularArea (){
-        return 0.0;
+public abstract class Figura {
+    private String colorFondo;
+    public Figura(String colorFondo) {
+        this.colorFondo = colorFondo;
     }
 
-    public double calcularPerimetro (){
-        return 0.0;
+    public Figura() {
     }
+
+    public abstract double calcularArea ();
+    //public double calcularArea (){
+    //    return 0.0;
+    //} // funcion compartida de todas lad Figuras
+
+    //public double calcularPerimetro (){
+    //    return 0.0;
+    //} // funcion compartida de todas lad Figuras
+
+    public abstract double calcularPerimetro ();
 }
