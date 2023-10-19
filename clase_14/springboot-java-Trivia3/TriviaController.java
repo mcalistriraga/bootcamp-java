@@ -1,3 +1,6 @@
+//
+// manuel calistri: mcalistri.freel@gmail.com, mcalistri@upttmbi.edu.ve, www.linkedin.com/in/manuel-calistri-725b03125
+//
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.web.bind.annotation.GetMapping;
