@@ -11,7 +11,7 @@ import java.net.URL;
 public class ChatGptClient {
     public JSONObject enviarPregunta(String preguntaUsuario) {
 
-        String apiKeyYvonne = "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"; //YVONNE-API-KEY
+        String apiKeyYvonne = "YVONNE-API-KEY";
 
         JSONObject contentMainObject = null;
 
