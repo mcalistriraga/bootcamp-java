@@ -18,8 +18,9 @@ public class UsuarioControllers {
     @DeleteMapping("/api/usuarios/{id}") // eliminar usuario id
     public void eliminarUsuario(@PathVariable String id)    {
 
-        //Usuario usuarioEncontrado= usuarios.stream().filter(user->user.getId().equals(id)).findFirst().get();
-        if (!usuarios.isEmpty())
+        //Usuario usuarioEncontrado= usuarios.stream().filter(user->user.getId().equals(id)).findFirst().get(); // ojoo tema avanzado pero muy actual...
+	//usuarios.remove(usuarioEncontrado);
+        if (!usuarios.isEmpty()) // aqui con un for tradicional
         {
             for (Usuario usr : usuarios) {
                 if (id.equals(usr.getId().toString())) {
@@ -32,7 +33,10 @@ public class UsuarioControllers {
 
     @PostMapping("/api/usuarios") // Crear usuario
     //public void agregarUsuario(@RequestBody Usuario user) { //  aqui recibe un usuario y lo va a gregar
-    public void  agregarUsuario(@RequestBody Usuario user) {
-        usuarios.add(user);
+    public void  agregarUsuario(@RequestBody Usuario usr) {
+        if (usr.getId() == null) {
+            usr.setId(usuarios.size()+1); //manuel
+        }
+        usuarios.add(usr);
     }
 }
