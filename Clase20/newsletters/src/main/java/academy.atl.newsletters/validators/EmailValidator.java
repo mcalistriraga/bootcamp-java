@@ -25,4 +25,3 @@ public class EmailValidator {
         return true;
     }
 }
-
