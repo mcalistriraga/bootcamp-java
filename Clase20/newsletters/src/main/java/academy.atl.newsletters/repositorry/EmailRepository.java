@@ -19,7 +19,15 @@ public class EmailRepository {
 
     public String  guardarEmail(String emailDelUsuario) { // CONSULTA PARAMETRIZADA
 
+        // en HQL, no se llama la tabla lead  sino al objeto de la clase Lead
+        // aqui se usa el nombre de clase @Table(name = "`lead`"),
+        // el nombre es     @Column(name = "email")
+        // private          String email; <-- este nombre de variable es el que se usa
+        //                                    en la consulta y no el que esta entre comillas
+
         String consultaSql = "INSERT INTO Lead (email) VALUES (:paramEmail)";
+                     // OJOOO OBSERVA QUE Lead ES EL NOMBRE DE LA CLASE EN "Lead.java", es decir en: "public class Lead {"
+                                          // , "email" el nombre del String en:  "private String email;"
         baseDeDatos.createQuery(consultaSql)
                 .setParameter("paramEmail", emailDelUsuario)
                 .executeUpdate();
@@ -28,7 +36,8 @@ public class EmailRepository {
 
     @Transactional
     public String  guardarEmail_SQL_Native(String emailDelUsuario) { // COSNSULTA DIRECTA SQL, vulnerable a ataque de inyeccion
-         String consultaSql= "INSERT INTO `lead` (`id`, `email`) " +
+    //public String  guardarEmail(String emailDelUsuario) {
+        String consultaSql= "INSERT INTO `lead` (`id`, `email`) " +
                "VALUES (NULL, '" + emailDelUsuario + "')";
         baseDeDatos.createNativeQuery(consultaSql).executeUpdate();  // aqui se ejecuta: SQL
 
